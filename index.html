@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Study Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="container">
+
     <h1>📚 AI Study Assistant</h1>
 
-    <h2>Login</h2>
+    <div class="card">
+        <h2>Login</h2>
 
-    <input type="email" placeholder="Enter Email">
-    <br><br>
+        <input type="email" placeholder="Enter Email">
 
-    <input type="password" placeholder="Enter Password">
-    <br><br>
+        <input type="password" placeholder="Enter Password">
 
-    <button>Login</button>
+        <button>Login</button>
+    </div>
 
-    <hr>
+    <div class="card">
+        <h2>Ask Question</h2>
 
-    <h2>Ask Question</h2>
+        <textarea rows="6"
+        placeholder="Ask your study question here..."></textarea>
 
-    <textarea rows="5" cols="50" placeholder="Ask your question here"></textarea>
+        <select>
+            <option>5 Marks Answer</option>
+            <option>10 Marks Answer</option>
+            <option>15 Marks Answer</option>
+        </select>
 
-    <br><br>
+        <button>Get Answer</button>
+    </div>
 
-    <button>Get Answer</button>
+</div>
+
 </body>
 </html>
